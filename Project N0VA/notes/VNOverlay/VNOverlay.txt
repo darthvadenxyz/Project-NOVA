@@ -1,0 +1,7 @@
+For having HD Visual Novel elements, we could try keeping the gameplay sections at a lower 
+resolution but make you start the game in 720p, and make the text as well as the character 
+portraits show up in HD by using the Draw GUI event. 
+
+Experiment with this
+
+Or just make the pixel art bigger
