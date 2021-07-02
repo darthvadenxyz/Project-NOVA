@@ -133,7 +133,7 @@ function DrawOutlinedSprite(_sprite, _index, _x, _y, _xscale, _yscale, _offset, 
 }
 
 // Draws a Textbox to the screen
-function NewTextBox(_message, _background = 0, _responses, _nameplate, _vo = -1){
+function NewTextBox(_message, _background, _responses, _nameplate, _vo){
 	/// @arg Message
 	/// @arg Background
 	/// @arg [Responses]
@@ -205,8 +205,7 @@ function NewTextBox(_message, _background = 0, _responses, _nameplate, _vo = -1)
 			chrName			= _nameplate;
 		}
 		// VoiceOver
-		//if (_vo == undefined) voiceline = -1; else voiceline = _vo;
-		voiceline = _vo;
+		if (_vo == undefined) voiceline = -1; else voiceline = _vo;
 	}
 	
 	with (oPlayer){
